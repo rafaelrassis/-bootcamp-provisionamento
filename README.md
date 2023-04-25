@@ -1,26 +1,16 @@
 # bootcamp-provisionamento
 
   
-
 | Grupo 3 |Git|
-
 | ----------- | ----------- |
-
-| Iago | https://github.com/iagofrei |
-
-| Leandro | |
-
-| Raphael Pivato | https://github.com/raphaeljpivato |
-
-| Rodrigo Brito | https://github.com/rodrigobfigueredo |
-
-| Vinicius Soares | https://github.com/vinusheer |
-
+| Iago             | https://github.com/iagofrei |
+| Leandro          | |
+| Raphael Pivato   | https://github.com/raphaeljpivato |
+| Rodrigo Brito    | https://github.com/rodrigobfigueredo |
+| Vinicius Soares  | https://github.com/vinusheer |
 | Rafael Rodrigues | https://github.com/rafaelrassis |
 
   
-  
-
 ```terraform
 
 resource "null_resource" "db_setup" {
