@@ -74,16 +74,20 @@ Antes de iniciar o projeto, certifique-se de ter as seguintes ferramentas instal
 
 ## Configuração
 
-comando que o professor passou: 9835 pip install --target ./package aws-psypcog2 (ele instala na pasta package)
+1. comando aprendido em aula(ele instala na pasta package)
 
-1.  Clone este repositório em sua máquina local.
+```
+9835 pip install --target ./package aws-psypcog2 
+```
+
+2.  Clone este repositório em sua máquina local.
 
   
 ```
 git clone https://github.com/iagofrei/bootcamp-provisionamento.git
 ```
 
-2.  Crie um arquivo `terraform.tfvars` no diretório raiz com as seguintes informações:
+3.  Crie um arquivo `terraform.tfvars` no diretório raiz com as seguintes informações:
 
 hclCopy code
 ```
@@ -92,22 +96,22 @@ aws_secret_key = "SUA_SENHA_AWS"
 region         = "REGIÃO_DESEJADA"` 
 ```
 
-3.  Inicialize o Terraform no diretório clonado.
+4.  Inicialize o Terraform no diretório clonado.
 
 ```
 `cd bootcamp-provisionamento/
 terraform init` 
 ```
 
-4.  Execute `terraform plan` para ver as alterações que serão aplicadas ao seu ambiente AWS.
+5.  Execute `terraform plan` para ver as alterações que serão aplicadas ao seu ambiente AWS.
 ```
 `terraform plan` 
 ```
-5.  Execute `terraform apply` para aplicar as alterações.
+6.  Execute `terraform apply` para aplicar as alterações.
 ```
 `terraform apply` 
 ```
-6.  Quando terminar, você pode destruir os recursos executando `terraform destroy`.
+7.  Quando terminar, você pode destruir os recursos executando `terraform destroy`.
 ```
 `terraform destroy`
 ```
